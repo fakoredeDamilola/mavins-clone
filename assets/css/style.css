@@ -390,11 +390,12 @@ h1 {
   background: url("../../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
   display: var(--display);
   justify-content: var(--justifyContent);
   align-items: var(--alignItems);
-  /* position: relative; */
+  position: relative;
 }
 .buttons {
   position: absolute;

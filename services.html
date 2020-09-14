@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mavins record | Services</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
@@ -119,14 +119,15 @@
         </section>
       </main>
       <footer class="d-flex">
+        <div class="scrollToTop">
+          <i class="fas fa-angle-up"></i>
+        </div>
         <div class="copyright col-sm-6 col-md-6">
           © FAKO. All Rights Reserved.
         </div>
         <div class="contact d-none d-md-flex">
           <div class="privacyPolicy">Privacy Policy</div>
-          <div class="scrollToTop">
-            <i class="fas fa-angle-up"></i>
-          </div>
+
           <div class="contact-icon d-flex ml-5">
             <div class="ml-4">
               <a href="https://web.facebook.com/dfakorede29"
@@ -158,20 +159,5 @@
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
-    <script>
-      let no = 1;
-      window.addEventListener("scroll", function (e) {
-        console.log(no);
-        if (window.scrollY > 40) {
-          console.log(e.target.className);
-          const offsetTop = document.querySelector(".service-2").offsetTop;
-
-          scroll({
-            top: offsetTop,
-            behavior: "smooth",
-          });
-        }
-      });
-    </script>
   </body>
 </html>

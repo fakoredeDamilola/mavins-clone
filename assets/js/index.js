@@ -34,7 +34,7 @@ setTimeout(() => {
 setTimeout(() => {
   logo.style.display = "none";
   content.style.display = "block";
-}, 10600);
+}, 100);
 
 // header
 let menuToggle = document.querySelector(".menu-toggle");
@@ -131,4 +131,4 @@ setTimeout(function () {
     bodyContent.style.backgroundImage = `url(../../images/${imgArrays[n].img})`;
     nameCenter.innerHTML = `${imgArrays[n].name}`;
   }, 5000);
-}, 10600);
+}, 100);
