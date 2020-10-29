@@ -34,7 +34,7 @@ setTimeout(() => {
 setTimeout(() => {
   logo.style.display = "none";
   content.style.display = "block";
-}, 100);
+}, 10600);
 
 // header
 let menuToggle = document.querySelector(".menu-toggle");
